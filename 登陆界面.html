@@ -1,0 +1,187 @@
+<head>
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<meta http-equiv="Content-Language" content="zh-cn">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+
+
+	<style type="text/css">
+		.style2 {
+			border-collapse: collapse;
+		}
+
+		.style4 {
+			color: #000000;
+			font-size: 15px;
+			text-align: left;
+
+		}
+
+		.style6 {
+			color: #000000;
+			font-size: 20px;
+			text-align: center;
+		}
+
+		.style7 {
+			color: #000000;
+			font-size: 13px;
+			text-align: left;
+		}
+
+		body {
+			background-color: #ECF2F9;
+		}
+
+		a {
+			text-decoration: none
+		}
+
+		a:hover {
+			text-decoration: underline
+		}
+	</style>
+
+</head>
+<title>广东茂名幼儿师范专科学院</title>
+
+<body>
+
+	<script language="javascript">
+		function formcheck() {
+			if (document.login_form.user.value == "") { alert("请输入用户名！"); document.login_form.user.focus(); return false }
+			if (document.login_form.psw.value == "") { alert("请输入密码！"); document.login_form.psw.focus(); return false }
+			if (document.login_form.yzm.value == "") { alert("请输入验证码！"); document.login_form.yzm.focus(); return false }
+			return true
+		}
+	</script><br><br>
+	<table width="250" height="278" align="center" cellpadding="0" class="style2"
+		style="font-size:12pt;border-radius:10px;" bgcolor="#FFFFFF">
+		<tr>
+			<td align="center" class="style6"><br>广东茂名幼儿师范专科学院</td>
+		</tr>
+		<tr>
+			<td valign="top">
+				<form name="login_form" method="post" action="login.asp?act=userlogin" onSubmit="return formcheck()">
+					<table width="100%" align=center class="style4">
+
+						<tr>
+							<td align="left">&nbsp;&nbsp;&nbsp;&nbsp;帐号
+								<input name="user" style="height:26px; font-size:20px; width: 180px;"
+									AUTOCOMPLETE="off">
+							</td>
+						</tr>
+						<tr>
+							<td align="left">&nbsp;&nbsp;&nbsp;&nbsp;密码
+								<input name="psw" type="password" style="height:26px; font-size:20px; width: 180px;"
+									AUTOCOMPLETE="off">
+							</td>
+						</tr>
+						<tr>
+							<td align="left">&nbsp;&nbsp;&nbsp;&nbsp;类别
+								<select name="usertype" style="height:26px; font-size:15px; width: 180px;"
+									AUTOCOMPLETE="off">
+									<option value="学校管理员">管理员</option>
+									<option value="教师" selected="selected">教师</option>
+									<option value="学生">学生</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td align="left">&nbsp;&nbsp;&nbsp;&nbsp;验证
+								<input id="yzm" name="yzm" size="4" style="height:26px; font-size:20px; width: 60px;"
+									AUTOCOMPLETE="off"> <img id="myyzm" src="#" onClick="javascript:getyzm();"
+									style="vertical-align:middle;">
+							</td>
+						</tr>
+						<tr>
+							<td align="center"><input type="submit" value="登录" onClick="javascript:showwaitting()"
+									style="background:#0099FF;height:35px;font-size:20px;color:#FFFFFF; width:100%;">
+								<div id="waitting" style="display:none;"><img src="waitting.gif" /></div>
+
+								<table width="100%" border="0">
+									<tr class="style7">
+										<td align="center"><a href="stufindpw.asp">学生找回密码</a></td>
+										<td align="center"><a href="stufindxueyeshuipingkaohaomima.asp">学考密码查询</a></td>
+									</tr>
+									<tr class="style7">
+										<td align="center"><a href="stufindschoolsecurityid.asp"
+												style="display:block">校安账号查询</a></td>
+										<td align="center"><a href="viewstudentjiaofeibill.asp"
+												style="display:block">缴交学费</a><a
+												href="https://www.eeagd.edu.cn/pgks/zhmm/zhmm1.jsp"
+												style="display:none">高考密码重置</a></td>
+									</tr>
+									<tr class="style7">
+										<td align="center"><a href="stunewclassquery.asp"
+												style="display:block">学生分班查询</a></td>
+										<td align="center"><a href="stumodifysubject.asp"
+												style="display:block">高一选科修改</a></td>
+									</tr>
+									<tr class="style7">
+										<td align="center"><a href="stufindrenrentongid.asp"
+												style="display:block">人人通账户查询</a></td>
+										<td align="center"><a href="stufindbingyidengjiid.asp"
+												style="display:block">兵役登记上报</a></td>
+									</tr>
+									<tr class="style7">
+										<td align="center"><a href="biyeinfocheck.asp" style="display:block">毕业证信息校对</a>
+										</td>
+										<td align="center"><a href="gaozhongzonghesuzhipingjialogininfo.asp"
+												style="display:block">综合素质评价账号查询</a></td>
+									</tr>
+									<tr class="style7">
+										<td align="center"><a href="#" style="display:none">毕业证信息校对</a></td>
+										<td align="center"><a href="#" style="display:none">高考考号查询</a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</td>
+		</tr>
+	</table>
+
+	<head>
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<meta http-equiv="Expires" content="0">
+		<meta http-equiv="Content-Language" content="zh-cn">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+
+
+	</head>
+	<style type="text/css">
+		a {
+			text-decoration: none
+		}
+
+		a:hover {
+			text-decoration: underline
+		}
+	</style>
+
+	<hr>
+	<!-- <div align="center" style="font-size: 10px;">袁金明 微信：13553658365<br>
+  <a href="http://www.beian.miit.gov.cn/">粤ICP备19066151号-1</a><br> 
+<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1280158414'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/stat.php%3Fid%3D1280158414%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+</div> -->
+
+</body>
+<script>
+	function getyzm() {
+		document.getElementById("myyzm").src = "yzm.asp?" + Math.random();
+	}
+	getyzm();
+
+	function showwaitting() {
+		document.getElementById("waitting").style.display = "block";
+	}
+	function hidewaitting() {
+		document.getElementById("waitting").style.display = "none";
+	}
+</script>
